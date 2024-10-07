@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 
 import { fadeIn, textVariant } from "../utils/motion";
+import SectionWrapper from "../hoc/SectionWrapper";
 
 const ServiceCard = ({ index, title, icon }) => (
   <div className="xs:w-[250px] w-full">
@@ -40,11 +41,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm Yaksh Butani, a high school student passionate about coding, robotics, and leadership. As president of my school's Hack Club and co-chair of Massey's Game Jam, I lead tech-focused projects, including AI development and web design. I’ve worked on an AI model for waste detection in the ocean and recreated the Apple website using React and GSAP. I'm also involved in FRC robotics programming, soccer, and Air Cadets. Outside of school, I volunteer actively in my community and work on projects that combine my love for technology, innovation, and making an impact.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
@@ -56,4 +53,4 @@ const About = () => {
   );
 };
 
-export default About
+export default SectionWrapper(About,"About")

@@ -15,10 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    hackclub,
+    first,
+    gamejam,
+    stem,
     carrent,
     jobit,
     tripguide,
@@ -116,85 +116,57 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Chapter Co-Preisdent",
+      company_name: "Hack Club @VMSS",
+      icon: hackclub,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Aug 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing 5+ lesson plans on HTML, CSS, Javascript, and React to prepare students for hackathon competitions.",
+        "Provided mentorship to 20+ club members, assisting with coding challenges, project development, and career adivce.",
+        "Led Hack Club as President, overseeing 10+ club activites, meetings, and events, guiding a team of 15 members to acheive club goals.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "First Robotics Programming Lead",
+      company_name: "Team 4903 @VMSS",
+      icon: first,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sep 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to the Programming of the Robot's Vision Subsystem.",
+        "Contributed to the development of an AI model for game peice detection, enhancing the team's visual perception by a significant 45%.",
+        "Fully developed Command Based Tank drive robot code for testing purposes.",
+        "Developing Autonomus Routine for next FRC season.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Co-chair",
+      company_name: "Massey Game Jam",
+      icon: gamejam,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "July 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Co-President of Massey's Game Jam, overseeing the organization of the event and coordinating with team members.",
+        "Developing the offical Game Jam website using modern web technologies, ensuring an intuitive and user-friendly experience for participants.",
+        "Promoting the event and encouraging participation in the game jam.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Counsellor in Training",
+      company_name: "Stem Camp",
+      icon: stem,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+      date: "June 2024 - Aug 2024",
+      points:[
+        "Assisted in organizing and leading STEM-based activities for children aged 6-12, fostering their interest in science, technology, engineering, and mathematics.",
+        "Provided mentorship and guidance to campers during hands-on projects, ensuring a safe and engaging learning environment.",
+       "Developed communication and leadership skills by collaborating with camp staff and supporting campers' individual learning needs.",
+        ],
+      },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+
   
   const projects = [
     {
@@ -262,4 +234,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
